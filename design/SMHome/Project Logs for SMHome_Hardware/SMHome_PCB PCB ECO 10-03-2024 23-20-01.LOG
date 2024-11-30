@@ -1,0 +1,10 @@
+Change Component DesignItemId : Designator=L2 Old DesignItemId=LED 0805 Do New DesignItemId=LED 1206 Do
+Change Component Footprint: Designator=L2 Old Footprint=LED-0805-Red New Footprint=LED-1206-Red
+Change Component Comment : Designator=L2 Old Comment=LED 0805 New Comment=
+Change component parameters: Designator = "L2" ("L2"); Footprint = "LED-0805-Red"; UniqueID = "\SLKZREYE" ("\SLKZREYE")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH002334"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "LED1206 Màu Ð? (Red)"; VariantName = "[No Variations]"

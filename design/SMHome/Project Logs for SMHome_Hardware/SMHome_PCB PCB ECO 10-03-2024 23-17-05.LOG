@@ -1,0 +1,51 @@
+Change Component DesignItemId : Designator=L3 Old DesignItemId=LED 0805 Xanh Duong New DesignItemId=LED 1206 Xanh Duong
+Change Component DesignItemId : Designator=L4 Old DesignItemId=LED 0805 Xanh Duong New DesignItemId=LED 1206 Xanh Duong
+Change Component DesignItemId : Designator=L5 Old DesignItemId=LED 0805 Xanh Duong New DesignItemId=LED 1206 Xanh Duong
+Change Component DesignItemId : Designator=L6 Old DesignItemId=LED 0805 Xanh Duong New DesignItemId=LED 1206 Xanh Duong
+Change Component DesignItemId : Designator=L7 Old DesignItemId=LED 0805 Xanh Duong New DesignItemId=LED 1206 Xanh Duong
+Change Component Footprint: Designator=L3 Old Footprint=LED-0805-Blue New Footprint=LED-1206-Blue
+Change Component Footprint: Designator=L4 Old Footprint=LED-0805-Blue New Footprint=LED-1206-Blue
+Change Component Footprint: Designator=L5 Old Footprint=LED-0805-Blue New Footprint=LED-1206-Blue
+Change Component Footprint: Designator=L6 Old Footprint=LED-0805-Blue New Footprint=LED-1206-Blue
+Change Component Footprint: Designator=L7 Old Footprint=LED-0805-Blue New Footprint=LED-1206-Blue
+Change Component Comment : Designator=L3 Old Comment=LED 0805 New Comment=
+Change Component Comment : Designator=L4 Old Comment=LED 0805 New Comment=
+Change Component Comment : Designator=L5 Old Comment=LED 0805 New Comment=
+Change Component Comment : Designator=L6 Old Comment=LED 0805 New Comment=
+Change Component Comment : Designator=L7 Old Comment=LED 0805 New Comment=
+Change component parameters: Designator = "L3" ("L3"); Footprint = "LED-0805-Blue"; UniqueID = "\QIFSWUQP" ("\QIFSWUQP")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH002333"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "LED1206 Màu Xanh Duong (Blue)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L4" ("L4"); Footprint = "LED-0805-Blue"; UniqueID = "\RBOYZEBR" ("\RBOYZEBR")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH002333"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "LED1206 Màu Xanh Duong (Blue)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L5" ("L5"); Footprint = "LED-0805-Blue"; UniqueID = "\QFIROBQQ" ("\QFIROBQQ")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH002333"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "LED1206 Màu Xanh Duong (Blue)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L6" ("L6"); Footprint = "LED-0805-Blue"; UniqueID = "\FVLMOFIW" ("\FVLMOFIW")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH002333"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "LED1206 Màu Xanh Duong (Blue)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L7" ("L7"); Footprint = "LED-0805-Blue"; UniqueID = "\COQOKYUQ" ("\COQOKYUQ")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH002333"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "LED1206 Màu Xanh Duong (Blue)"; VariantName = "[No Variations]"
+Added Room: Name=SMHome_SDNL
