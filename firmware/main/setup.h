@@ -27,7 +27,7 @@ void setup_relay_button()
   {
     pinMode(buttonPins[i], INPUT);
     pinMode(ledPins[i], OUTPUT);
-    digitalWrite(ledPins[i], OFF); // Đặt trạng thái ban đầu cho các đèn LED
+//    digitalWrite(ledPins[i], OFF); // Đặt trạng thái ban đầu cho các đèn LED
   }
 }
 

@@ -53,7 +53,10 @@ void reconnect()
   {
     Serial.print("Attempting MQTT connection...");
     // Attempt to connect
-    if (client.connect("ESP32Client", MQTT_USERNAME, MQTT_PWD))
+    String client_id = "esp32-client-";
+    client_id += String(SMH_NODE_ID);
+    Serial.printf("The client %s connects to the MQTT broker\n", client_id.c_str());
+    if (client.connect(client_id.c_str() , MQTT_USERNAME, MQTT_PWD))
     {
       Serial.println("connected");
       // Subscribe

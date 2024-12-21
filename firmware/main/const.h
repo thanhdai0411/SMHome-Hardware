@@ -58,9 +58,12 @@ const int sensorDigitalPins[4] = {SENSOR_DIGITAL_PIN_2, SENSOR_DIGITAL_PIN_3, SE
 #define SMH_DEVICE4_ID "09"
 #define SMH_DEVICE5_ID "10"
 
+#define SMH_START_ID "99"
+
 // define node
 #define SMH_ROOT "SM_HOME"
 
+// ID of node
 #define SMH_NODE_ID "SMH_NODE1"
 
 #define SHM_DEVICE_1 "SMH_DEVICE1"
@@ -74,6 +77,11 @@ const int sensorDigitalPins[4] = {SENSOR_DIGITAL_PIN_2, SENSOR_DIGITAL_PIN_3, SE
 #define SHM_SENSOR_3 "SMH_SENSOR3"
 #define SHM_SENSOR_4 "SMH_SENSOR4"
 #define SHM_SENSOR_5 "SMH_SENSOR5"
+
+// VD topic relay : "/SM_HOME/SMH_NODE1/SMH_DEVICE1/status"
+// VD topic sensor : "/SM_HOME/SMH_NODE1/SMH_SENSOR1/status"
+
+const char *TOPIC_START_NODE = "/" SMH_ROOT "/" SMH_NODE_ID "/" "start";
 
 const char *TOPIC_DEVICE_1 = "/" SMH_ROOT "/" SMH_NODE_ID "/" SHM_DEVICE_1 "/" "status";
 const char *TOPIC_DEVICE_2 = "/" SMH_ROOT "/" SMH_NODE_ID "/" SHM_DEVICE_2 "/" "status";

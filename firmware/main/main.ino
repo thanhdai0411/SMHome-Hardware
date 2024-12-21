@@ -31,18 +31,19 @@ void setup()
   Serial.begin(115200);
 
   Wire.begin();
-  while (!sht3x.begin())
-  {
-    Serial.println("SHT3x not found !");
-    delay(1000);
-  }
+//  while (!sht3x.begin())
+//  {
+//    Serial.println("SHT3x not found !");
+//    delay(1000);
+//  }
 
   setup_wifi();
-  setup_relay_button();
   setup_sensor() ;
 
   client.setServer(mqtt_server, 1883);
   client.setCallback(callback);
+
+  setup_relay_button();
 }
 
 void loop()

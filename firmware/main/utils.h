@@ -51,7 +51,6 @@ char* buildDeviceIdForDevice(int index) {
 }
 
 const char* buildFrameTrans(String deviceID, String dataSent ) {
-
   String frameData = deviceID + "," + dataSent;
   String crc = calculateCRC16(frameData);
   String frame = (String)START_FRAME +  "," + frameData + "," + crc + "," + (String)END_FRAME;
