@@ -71,6 +71,20 @@ void readDigitalMQ135() {
   }
 }
 
+
+void readDigitalMP2() {
+  // MP2
+  int MP2_data = digitalRead(SENSOR_DIGITAL_PIN_5);
+  if (MP2_data != previous_MP2_data) { // Chỉ publish khi có sự thay đổi
+    Serial.println();
+    Serial.print("MP2: ");
+    Serial.println(MP2_data);
+    client.publish(TOPIC_SENSOR_5, buildFrameTrans( SMH_SENSOR5_ID, (String)MP2_data));
+    previous_MP2_data = MP2_data; // Cập nhật trạng thái trước đó
+  }
+}
+
+
 void readDigitalSR501() {
   // SR501
   int SR501_data = digitalRead(SENSOR_DIGITAL_PIN_2);

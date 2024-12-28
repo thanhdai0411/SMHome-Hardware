@@ -64,7 +64,7 @@ const int sensorDigitalPins[4] = {SENSOR_DIGITAL_PIN_2, SENSOR_DIGITAL_PIN_3, SE
 #define SMH_ROOT "SM_HOME"
 
 // ID of node
-#define SMH_NODE_ID "SMH_NODE1"
+#define SMH_NODE_ID "SMH_NODE2"
 
 #define SHM_DEVICE_1 "SMH_DEVICE1"
 #define SHM_DEVICE_2 "SMH_DEVICE2"
